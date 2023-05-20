@@ -1,0 +1,130 @@
+.container {
+   background-image: var(--main-background);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+}
+
+.nameSearchContainer {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.nameSearchContainer > h2 {
+   font-family: 'Montserrat', sans-serif;
+   color: #fff;
+   font-family: 'Montserrat';
+   font-weight: 500;
+   font-size: 1.8rem;
+   line-height: 61px;
+   letter-spacing: -0.03em;
+}
+
+.locationInput {
+   position: relative;
+   width: 50vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.locationInput > input {
+   background-color: var(--background-color-light);
+   width: 100%;
+   outline: none;
+   border: none;
+   height: 3rem;
+   font-size: 1.5rem;
+   text-align: center;
+   border-radius: 2.5rem;
+   color: var(--text-color);
+   font-family: 'Poppins', sans-serif;
+   padding: 0.5rem 1rem;
+   padding-right: 3rem;
+}
+
+.locationInput > input:focus {
+   background-color: var(--background-color);
+}
+
+.searchLogo {
+   position: absolute;
+   color: var(--text-color);
+   font-size: 1.5rem;
+   top: 0.55rem;
+   right: 1rem;
+   cursor: pointer;
+}
+
+.divider {
+   color: #fff;
+}
+
+.coordinatesBtn {
+   background-color: var(--background-color-light);
+   cursor: pointer;
+   outline: none;
+   border: none;
+   font-size: 1rem;
+   text-align: center;
+   border-radius: 2.5rem;
+   color: var(--text-color);
+   font-family: 'Poppins', sans-serif;
+   padding: 0.5rem 1rem;
+   position: relative;
+}
+
+.coordinatesBtn > span {
+   margin-right: 0.5rem;
+}
+
+.coordinatesBtn:hover {
+   background-color: var(--background-color);
+}
+
+@media only screen and (max-width: 576px) {
+ 
+   .nameSearchContainer > h2 {
+      font-size: 1.4rem;
+   }
+   
+   .locationInput {
+      width: 90vw;
+   }
+   
+   .locationInput > input {
+      width: 100%;
+      font-size: 1rem;
+      height: 2.2rem;
+      padding: 0.5rem 0.5rem;
+      padding-right: 2rem;
+      
+   }
+   
+   .searchLogo{
+      font-size: 1.2rem;
+      top: 0.35rem;
+      right: 0.5rem;
+   }
+   
+   .coordinatesBtn {
+      font-size: 0.8rem;
+      padding: 0.5rem 0.5rem;
+   }
+   
+}

@@ -1,0 +1,44 @@
+.navbar {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.5rem 2rem;
+   z-index: 1000;
+}
+
+.logoText {
+   font-weight: 700;
+   font-size: 1.8rem;
+   letter-spacing: -0.03em;
+   text-transform: capitalize;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+.githubLogo {
+   color: #ffffff;
+   font-size: 1.8rem;
+   text-align: center;
+}
+
+.githubLogo:hover {
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+   .navbar {
+      padding: 0.5rem 1rem;
+      background-color: var(--background-color-lighter);
+   }
+
+   .logoText {
+      font-size: 1.5rem;
+   }
+
+   .githubLogo {
+      font-size: 1.5rem;
+   }
+}

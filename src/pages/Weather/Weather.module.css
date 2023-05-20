@@ -1,0 +1,206 @@
+.card {
+   width: 75vw;
+   margin-top: 2rem;
+   height: 75vh;
+   background-color: var(--background-color-lighter);
+   display: flex;
+   border-radius: 6px;
+   color: #fff;
+}
+
+.current {
+   background-color: var(--background-color-lighter);
+   width: 30%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+}
+
+.location {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5rem;
+   font-weight: 700;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.current > .day {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5rem;
+   font-weight: 600;
+   text-align: center;
+   width: 100%;
+}
+
+.current > .day > span {
+   display: block;
+}
+
+.weather {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+   padding-bottom: 5rem;
+}
+
+.weather > .temp {
+   font-family: 'Poppins', sans-serif;
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+.weather > .condition {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2rem;
+   font-weight: 700;
+   text-align: center;
+}
+
+.forecast {
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+}
+
+.dayAttributes {
+   width: 100%;
+}
+
+.dayAttributes > div {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 1.4rem;
+   letter-spacing: -0.03em;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.5rem 1rem;
+}
+
+.dayAttributes > div > span {
+   display: block;
+}
+
+.forecastDays {
+   font-size: 1.2rem;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1rem;
+   padding: 1rem 1.5rem;
+   border-radius: 1rem;
+   background-color: var(--background-color-lighter);
+   overflow-x: auto;
+}
+
+.forecastDay > .temp,
+.forecastDay > .day {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+   text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+   .weather > .condition {
+      font-size: 1.2rem;
+   }
+
+   .weather > .temp {
+      font-size: 2.2rem;
+   }
+
+   .forecastDays {
+      font-size: 1rem;
+   }
+
+   .dayAttributes > div {
+      font-size: 1.2rem;
+   }
+
+   .current > .day {
+      font-size: 1.2rem;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .card {
+      width: 90vw;
+      height: 90vh;
+      margin-top: 6rem;
+   }
+
+   .current {
+      width: 35%;
+   }
+
+   .forecast {
+      width: 65%;
+   }
+   
+     .dayAttributes > div {
+      font-size: 1rem;
+   }
+
+   .forecastDays {
+      padding: 1rem 1rem;
+   }
+}
+
+@media only screen and (max-width: 576px) {
+   .weather {
+      padding-bottom: 3rem;
+   }
+   .card {
+      width: 90vw;
+      height: 90vh;
+      flex-direction: column;
+      background-color: unset;
+      margin-top: 6rem;
+      padding-inline: 0rem;
+   }
+
+   .current > .day > span {
+      display: inline-block;
+      margin-left: 0.5rem;
+   }
+
+   .current {
+      width: 100%;
+      height: 50%;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 1rem;
+      background-color: unset;
+   }
+
+   .dayAttributes {
+      background-color: var(--background-color-lighter);
+      border-radius: 1rem;
+   }
+
+   .forecast {
+      width: 100%;
+      padding-top: 1rem;
+      padding-inline: 0rem;
+      gap: 1rem;
+   }
+
+   .forecastDays {
+      overflow-x: auto;
+   }
+}
