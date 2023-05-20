@@ -10,7 +10,7 @@ function Navbar() {
             <a href="/">CloudGuru</a>
          </div>
          <div className={styles.githubLogo}>
-            <a href="/">
+            <a target="_blank" href="https://github.com/Velogan-Boy/cloud-guru">
                <BsGithub />
             </a>
          </div>

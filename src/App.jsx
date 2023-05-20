@@ -23,7 +23,6 @@ function App() {
             // remove from DOM
             ele.classList.add('available');
 
-            toast.success('Welcome to Weather App!');
          }, 3000);
       }
    }, []);

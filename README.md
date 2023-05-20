@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# CEG Tech Forum - Techops Student Director Recruitment 2023-24
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task #1 - Frontend Development
 
-## Available Scripts
+Create a weather report web application with the following constraints
+- You can use HTML, CSS, JavaScript. Frameworks and libraries like Next.js, React, Angular,
+Bootstrap, jQuery, etc. are preferred.
+- Required components are Input modes and Weather report.
+- Use Open Weather Map API or any other free weather API for this task.
+- Input modes ⇒ There should be a search input bar for giving the place (location name) and
+coordinate number input bars for giving the coordinates. Either of these must be able to be used
+to give user input.
+- Weather report ⇒ The weather report (weather details can be as you wish) for the given place
+should be displayed in a concise and visually appealing manner.
+- Push your code to GitHub/GitLab.
+- Attach screenshots/recordings of your app in the submission.
+- Host the application in any free hosting platforms like Netlify, GitHub Pages etc.
 
-In the project directory, you can run:
+## Tech Stack Used
 
-### `npm start`
+- React.js
+- Styling in Vanilla CSS
+- Weather API - [WeatherAPI](https://www.weatherapi.com/)
+- Hosting - [Vercel](https://vercel.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Change browser theme settings to see the light/dark theme as theme will be set according to the browser theme.
 
-### `npm test`
+#### Light Mode
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![images](/screenshots/1.png)
+![images](/screenshots/2.png)
+![images](/screenshots/3.png)
 
-### `npm run build`
+#### Dark Mode
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![images](/screenshots/4.png)
+![images](/screenshots/5.png)
+![images](/screenshots/6.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Click on the link below to see my figma design file.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Figma](https://www.figma.com/file/xT6uljz9TZ4ikql3P7299W/CTF-FrontEnd-Task?type=design&node-id=6%3A32&t=tuEitwVpGkD0qKkb-1)
+## Live Demo
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Cloud Guru - Weather App](https://cloud-guru.vercel.app/)
